@@ -1,0 +1,24 @@
+#chessBoard{
+    display: inline-block;
+    border: 2px solid black;
+    /*margin:  80px 20%;*/
+}
+
+#chessBoard div{
+    line-height: 5px;
+}
+
+#chessBoard span{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+
+#chessBoard div:nth-child(odd) span:nth-child(even),
+#chessBoard div:nth-child(even) span:nth-child(odd){
+    background-color: black;
+}
+#chessBoard div:nth-child(even) span:nth-child(even),
+#chessBoard div:nth-child(odd) span:nth-child(odd){
+    background-color: whitesmoke;
+}
