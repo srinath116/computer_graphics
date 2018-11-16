@@ -78,7 +78,7 @@ function main() {
   var then = 0;
 
   // Draw the scene repeatedly
-  //----------------------- Changed function render (by Ruchi Saha ,CED15I023)---------------------------------------------------------
+  //----------------------- Changed function render (by srinath ,CED15I033)---------------------------------------------------------
   function render(now)
   {
 

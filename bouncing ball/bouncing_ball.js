@@ -1,4 +1,3 @@
-//----- Some global values (by Ruchi Saha, CED15I023)---------------------------
 
 
 var bounce_y = 0.0;
